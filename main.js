@@ -5,7 +5,7 @@ var y_begin = 0, y_end = 5, x_begin = 0, x_end = 9, diff = 0;
 var TIME = 0;
 document.documentElement.addEventListener('touchend', function (e) {
     var now = new Date().getTime();
-    if ((now - TIME) < 250) {
+    if ((now - TIME) < 400) {
         e.preventDefault();
     }
     TIME = now;
