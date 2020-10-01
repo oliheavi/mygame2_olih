@@ -100,9 +100,7 @@ function field_init() {
 }
 
 comment_string = [
-    "やりなおし～～～!",
-    "ざんねんwwwwwwwwww",
-    "まちがってるよ(^o^)",
+    "やりなおし～～～!"
 ]
 
 var click_x = -1, click_y = -1, click_flg = false;
