@@ -240,7 +240,7 @@ function game_clear() {
 
 var process = 1, click_counter = 0, player = 0, first_flg = true;
 var point = 0, click_cnt = 0, mental_destroyer = 0, title_screen = true;
-var disp_string = comment_string[randint(0, 3)], time_cnt = 0;
+var disp_string = comment_string[0], time_cnt = 0;
 
 requestAnimationFrame(main);
 function main() {
@@ -395,7 +395,7 @@ function main() {
                         process = 1;
                         mental_destroyer = 0;
                         time_cnt = 0;
-                        disp_string = comment_string[randint(0, 3)];
+                        disp_string = comment_string[0];
                     } else {
                         mental_destroyer++;
                         context.fillText(disp_string, 24 + 5 * 72 - 36, 24 + 3 * 72 - 6, mental_destroyer * 9);
